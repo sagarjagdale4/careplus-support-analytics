@@ -145,24 +145,6 @@ The pipeline handles common data quality problems, including:
 - Date and timestamp conversion
 - Consistent column naming
 
-## ☁️ AWS Services Used
-
-- **Amazon S3:** Cloud-based raw and processed data storage
-- **AWS Lambda:** Serverless ETL processing
-- **Amazon Athena:** SQL querying over S3 data
-- **Amazon Redshift Serverless:** Cloud data warehousing and analytical queries
-
-## 📚 Key Learning Outcomes
-
-- Designing an end-to-end data pipeline
-- Working with AWS S3 and Lambda
-- Processing CSV and Parquet files
-- Performing data cleaning using Python
-- Querying data using Athena SQL
-- Loading data into Amazon Redshift
-- Connecting Power BI to a cloud data warehouse
-- Understanding the relationship between data engineering and business intelligence
-
 ## 👤 Author
 
 **Name:** Sagar Jagdale  
