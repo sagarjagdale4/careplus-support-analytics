@@ -119,21 +119,20 @@ The project uses a PostgreSQL-compatible SQL interface to load and analyze proce
 
 Power BI is connected to Amazon Redshift to create interactive dashboards for support operations and system log analysis.
 
+
 ## 📊 Dashboards
 
 ### CarePlus Ticket Insights
 
-The dashboard includes:
+The dashboard provides insights into customer support ticket performance, including ticket status, resolution metrics, agents, channels, and issue categories.
 
-- Total tickets
-- Resolved, open, and escalated tickets
-- Average interactions
-- Average resolution time
-- Ticket distribution by channel
-- Ticket analysis by agent
-- Issue category analysis
-- Priority analysis
-- Detailed ticket records
+![CarePlus Ticket Insights](dashboards/screenshots/careplus_ticket_insights.png)
+
+### CarePlus Support Logs
+
+The dashboard analyzes system logs, CPU usage, response time, log levels, and user-agent activity.
+
+![CarePlus Support Logs](dashboards/screenshots/careplus_support_logs.png)
 
 ### CarePlus Support Logs
 
